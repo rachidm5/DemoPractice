@@ -6,68 +6,68 @@ public class Access6 {
 
 	public static void SwictchCase() {
 
-//		Scanner SwitchScan = new Scanner(System.in);
-//
-//		System.out.println("enter a number");
-//
-//		int WeekDays = SwitchScan.nextInt();
+		Scanner SwitchScan = new Scanner(System.in);
 
-		int WeekDays = 5;
+		System.out.println("enter a number");
 
-		// String weekDaysName ;
+		int WeekDays = SwitchScan.nextInt();
+
+		 //int WeekDays1  = 5;
+
+		 String weekDaysName = null;
 
 		switch (WeekDays) {
 
 		case 1:
 
-			// weekDaysName = "saturday";
-			System.out.println("saturday");
+			 weekDaysName = "saturday";
+			//System.out.println("saturday");
 			break;
 
 		case 2:
 
-			// weekDaysName= "sunday";
-			System.out.println("sunday");
+			 weekDaysName= "sunday";
+			//System.out.println("sunday");
 			break;
 
 		case 3:
 
-			// weekDaysName = "monday";
-			System.out.println("monday");
+			 weekDaysName = "monday";
+			//System.out.println("monday");
 			break;
 
 		case 4:
 
-			// weekDaysName= "tuesday";
-			System.out.println("tuesday");
+			 weekDaysName= "tuesday";
+			//System.out.println("tuesday");
 			break;
 
 		case 5:
 
-			// weekDaysName = "wednesday";
-			System.out.println("This is Wednesday : N " +WeekDays);
+			 weekDaysName = "wednesday";
+			//System.out.println("This is Wednesday : N " +WeekDays);
 			break;
 
 		case 6:
 
-			// weekDaysName= "thursday";
-			System.out.println("thursday");
+			 weekDaysName= "thursday";
+			//System.out.println("thursday");
 			break;
 
 		case 7:
 
-			// weekDaysName = "friday";
+			 weekDaysName = "friday";
 			System.out.println("friday");
 			break;
 
 		default:
 
-			// weekDaysName = "invalid, please select a number between 1 and 7";
-			System.out.println("invalid, please select a number between 1 and 7");
+			 weekDaysName = "invalid, please select a number between 1 and 7";
+			//System.out.println("invalid, please select a number between 1 and 7");
 
 		}
 
-		// System.out.println("selected day is : " + weekDaysName);
+		 System.out.println("selected day is : " + weekDaysName);
 
 	}
 
